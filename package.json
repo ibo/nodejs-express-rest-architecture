@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-express-architecture",
+  "version": "1.0.0",
+  "description": "example project for node.js",
+  "author": "Ibrahim Hizlioglu <ibo>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "nodemon ./server.js",
+    "dev": "nodemon --inspect ./server.js",
+    "start": "npm run"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {}
+}
