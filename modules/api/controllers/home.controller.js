@@ -4,7 +4,7 @@ class HomeController {
     };
 
     index(req,res) {
-        res.send('lorem');
+        res.send('github.com/ibo');
     }
 };
 

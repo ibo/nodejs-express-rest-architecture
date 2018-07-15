@@ -7,7 +7,6 @@ class UserModel {
 
         return GithubService.getUser(username)
         .then(function(response) {
-            console.log(response); 
             return UserMapper.user(response);
         })
         .catch(function(err) {
